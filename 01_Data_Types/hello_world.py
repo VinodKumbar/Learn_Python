@@ -53,5 +53,10 @@ print (type(z))
 name = input("Enter your name: ")
 print("Hello, " + name + "!")
 
+# Concatenate is not supported between different data types.
+# You cannot concatenate a string and an integer directly.
+# You need to convert the integer to a string first using the str() function.
+age = input("Enter your age: ")
+print("You are " + age + " years old.")
 
 
