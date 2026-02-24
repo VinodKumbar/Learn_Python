@@ -6,6 +6,10 @@
 class calculator:
     def add(self, a, b):
         return a + b
+    # default constructor is used when we do not define any constructor in the class.
+    # It is automatically provided by Python and does not take any parameters.
+    # def __init__(self):
+    #     print ("I am called automatically when an object is created.")
 
     def subtract(self, a, b):
         return a - b
